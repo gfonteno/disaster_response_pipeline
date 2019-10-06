@@ -56,5 +56,8 @@ The project output includes a web app where as an emergency worker can input a n
 #### Flask App Output
 ![Flask App screenshot1](img/1.png)
 
-#### Example output from a message inquiry
-![Flask App screenshot2](img/2.png)
+#### Flask App Output
+![Flask App screenshot1](img/2.png)
+
+#### Example output from a message inquiry ("food")
+![Flask App screenshot2](img/3.png)
