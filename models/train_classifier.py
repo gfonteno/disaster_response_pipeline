@@ -53,7 +53,7 @@ def load_data(database_filepath):
 def tokenize(text):
 
     """ 
-    Function for Clean and Tokanize text 
+    Function to Clean and Tokanize text 
     
     input:
     	text: the original text data
@@ -83,8 +83,8 @@ def tokenize(text):
 def build_model():
     
     """ 
-    Function for Building Model.
-    Creating pipeline and using grid search to find better parameters.
+    Function to Building Model
+    Creating pipeline and using grid search to find better parameters
     
     input:
         None
@@ -112,7 +112,7 @@ def build_model():
 def evaluate_model(model, X_test, Y_test, category_names):
     
     """ 
-    Function for evaluating the Model. 
+    Function to evaluate the Model
     
     input:
         model: Scikit model
@@ -130,7 +130,7 @@ def evaluate_model(model, X_test, Y_test, category_names):
 def save_model(model, model_filepath):
     
     """ 
-    Export your model as a pickle file
+    Export the model as a pickle file
     
     input:
     	model: name of the model which will be saved in a pickled representation

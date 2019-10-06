@@ -81,7 +81,7 @@ def clean_data(df):
 def save_data(df, database_filename):
 
     """ 
-    Write records stored in a DataFrame to a SQL database.
+    Write records stored in the DataFrame to a SQL database
 
     input:
     	df: cleaned dataset after function clean_data()
